@@ -1,11 +1,3 @@
-//
-//  BaseScene.cpp
-//  CocosAndroidBackKey
-//
-//  Created by 小林 佳祐 on 2014/12/03.
-//
-//
-
 #include "BaseScene.h"
 
 USING_NS_CC;

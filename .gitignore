@@ -36,3 +36,4 @@ out/
 .cproject
 *.class
 
+.DS_Store
