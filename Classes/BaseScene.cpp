@@ -21,17 +21,20 @@ bool BaseScene::init() {
 
 void BaseScene::onAndroidBackKeyPressed() {
     
-    if (_isAndroidBackKeyEnabled) {
+    if (_layerStack.empty()) {
         
-        // バックキーのスタックにBaseLayerがいれば、一番上のを削除します
-        // なければ、シーンをpopします
-        if (_layerStack.empty()) {
+        // BaseLayerがシーン上にない場合、このシーンをpopします
+        if (_isAndroidBackKeyEnabled) {
             Director::getInstance()->popScene();
-        } else {
-            auto layer = _layerStack.front();
-            layer->dismiss();
         }
         
+    } else {
+        
+        // BaseLayerがシーン上にある場合、一番上のレイヤーを消します
+        auto layer = _layerStack.front();
+        if (layer->isAndroidBackKeyEnabled()) {
+            layer->dismiss();
+        }
     }
     
 }

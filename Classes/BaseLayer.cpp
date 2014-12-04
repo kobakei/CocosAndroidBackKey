@@ -18,3 +18,11 @@ void BaseLayer::dismiss() {
         scene->popLayer(this);
     }
 }
+
+void BaseLayer::setAndroidBackKeyEnabled(bool enabled) {
+    _isAndroidBackKeyEnabled = enabled;
+}
+
+bool BaseLayer::isAndroidBackKeyEnabled() const {
+    return _isAndroidBackKeyEnabled;
+}

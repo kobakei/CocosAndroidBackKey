@@ -73,6 +73,7 @@
 		F70610141A2F3BB4006F7C22 /* BaseLayer.cpp in Sources */ = {isa = PBXBuildFile; fileRef = F70610121A2F3BB4006F7C22 /* BaseLayer.cpp */; };
 		F706101D1A2F4517006F7C22 /* SecondScene.cpp in Sources */ = {isa = PBXBuildFile; fileRef = F706101B1A2F4517006F7C22 /* SecondScene.cpp */; };
 		F70610201A2F4748006F7C22 /* SimpleLayer.cpp in Sources */ = {isa = PBXBuildFile; fileRef = F706101E1A2F4748006F7C22 /* SimpleLayer.cpp */; };
+		F7673B151A307ED00014FA0A /* AlertLayer.cpp in Sources */ = {isa = PBXBuildFile; fileRef = F7673B131A307ED00014FA0A /* AlertLayer.cpp */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -279,6 +280,8 @@
 		F706101C1A2F4517006F7C22 /* SecondScene.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = SecondScene.h; path = ../Classes/SecondScene.h; sourceTree = "<group>"; };
 		F706101E1A2F4748006F7C22 /* SimpleLayer.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = SimpleLayer.cpp; path = ../Classes/SimpleLayer.cpp; sourceTree = "<group>"; };
 		F706101F1A2F4748006F7C22 /* SimpleLayer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = SimpleLayer.h; path = ../Classes/SimpleLayer.h; sourceTree = "<group>"; };
+		F7673B131A307ED00014FA0A /* AlertLayer.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = AlertLayer.cpp; path = ../Classes/AlertLayer.cpp; sourceTree = "<group>"; };
+		F7673B141A307ED00014FA0A /* AlertLayer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = AlertLayer.h; path = ../Classes/AlertLayer.h; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -357,6 +360,8 @@
 				F706101C1A2F4517006F7C22 /* SecondScene.h */,
 				F706101E1A2F4748006F7C22 /* SimpleLayer.cpp */,
 				F706101F1A2F4748006F7C22 /* SimpleLayer.h */,
+				F7673B131A307ED00014FA0A /* AlertLayer.cpp */,
+				F7673B141A307ED00014FA0A /* AlertLayer.h */,
 			);
 			name = Classes;
 			path = ../classes;
@@ -699,6 +704,7 @@
 				503AE10217EB989F00D1A890 /* RootViewController.mm in Sources */,
 				F70610201A2F4748006F7C22 /* SimpleLayer.cpp in Sources */,
 				F706101D1A2F4517006F7C22 /* SecondScene.cpp in Sources */,
+				F7673B151A307ED00014FA0A /* AlertLayer.cpp in Sources */,
 				1AFAF8B716D35DE700DB1158 /* AppDelegate.cpp in Sources */,
 				F70610141A2F3BB4006F7C22 /* BaseLayer.cpp in Sources */,
 				F70610111A2F3BA0006F7C22 /* BaseScene.cpp in Sources */,

@@ -15,8 +15,10 @@ public:
 private:
     cocos2d::extension::ControlButton* _nextButton;
     cocos2d::extension::ControlButton* _openButton;
+    cocos2d::extension::ControlButton* _open2Button;
     void onNextPressed(cocos2d::Ref* sender, cocos2d::extension::Control::EventType e);
     void onOpenPressed(cocos2d::Ref* sender, cocos2d::extension::Control::EventType e);
+    void onOpen2Pressed(cocos2d::Ref* sender, cocos2d::extension::Control::EventType e);
 };
 
 #endif // __HELLOWORLD_SCENE_H__

@@ -4,6 +4,9 @@
 #include <list>
 #include "BaseLayer.h"
 
+/**
+ * Androidバックキーに対応したシーン
+ */
 class BaseScene : public cocos2d::Scene {
 public:
     virtual bool init();
