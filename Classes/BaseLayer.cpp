@@ -26,3 +26,7 @@ void BaseLayer::setAndroidBackKeyEnabled(bool enabled) {
 bool BaseLayer::isAndroidBackKeyEnabled() const {
     return _isAndroidBackKeyEnabled;
 }
+
+void BaseLayer::onAndroidBackKeyPressed() {
+    dismiss();
+}

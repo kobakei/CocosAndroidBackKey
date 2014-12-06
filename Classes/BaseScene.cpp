@@ -33,7 +33,7 @@ void BaseScene::onAndroidBackKeyPressed() {
         // BaseLayerがシーン上にある場合、一番上のレイヤーを消します
         auto layer = _layerStack.front();
         if (layer->isAndroidBackKeyEnabled()) {
-            layer->dismiss();
+            layer->onAndroidBackKeyPressed();
         }
     }
     

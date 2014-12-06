@@ -28,6 +28,11 @@ public:
      */
     virtual bool isAndroidBackKeyEnabled() const;
     
+    /**
+     * Androidバックキーが押された時に呼ばれます
+     */
+    virtual void onAndroidBackKeyPressed();
+    
 protected:
     bool _isAndroidBackKeyEnabled = true;
 };
